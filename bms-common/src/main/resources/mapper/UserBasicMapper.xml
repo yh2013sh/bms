@@ -50,7 +50,7 @@
                 UB.PHONE,
                 UB.EMAIL,
                 UB.DEPT_CODE,
-                D2.DEPT_NAME AS DEPT_NAME,
+                D2.DEPT_NAME AS DEPT_NAME
            FROM T_SYS_USER UB
            LEFT JOIN T_SYS_DEPT D2
              ON D2.DEPT_CODE = UB.DEPT_CODE
